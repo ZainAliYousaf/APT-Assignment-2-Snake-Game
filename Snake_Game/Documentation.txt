@@ -1,0 +1,32 @@
+ 
+Authors:
+Muhammad Ali Saagar(23021519-095)
+Zain Ali Yousaf( 23021519-122)
+Date: 2025-12-12
+
+Included files:
+- SnakeGame.csproj
+- Program.cs
+- GameForm.cs
+- SettingsForm.cs
+- Documentation.txt (this file)
+
+Features implemented:
+- Play area: 30 x 30 grid cells (configurable in GameForm.cs).
+- Timer-based game loop for smooth movement.
+- Snake starts with 3 segments and moves continuously.
+- Arrow key controls; cannot reverse direction instantly.
+- Food system with multiple types: Normal (+10), Bonus (+50), SpeedUp (+15) and SlowDown (+15).
+- Snake grows by 1 when eating food.
+- Collision detection: wall or self -> Game Over.
+- UI: Score, High Score (session), Start/Pause/Restart buttons, Settings for colors.
+- Game states: Start, Running, Paused, GameOver.
+- Leveling: every 5 foods eaten the game increases base speed.
+- Settings window to change snake/head/background colors.
+
+How to build:
+1. Open the folder 'snake_project' in Visual Studio 2022+.
+2. Build the solution (ensure .NET 6.0 SDK is installed).
+3. The executable will be in bin\Debug\net6.0-windows\
+
+ 
